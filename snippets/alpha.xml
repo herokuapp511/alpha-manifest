@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="alpha"
+          fetch="https://github.com/alphadroid-project"
+          revision="alpha-13" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com/"
+          sync-c="true"
+          sync-j="4"
+          revision="alpha-13" />
+
+  
+  <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
+
+</manifest>
